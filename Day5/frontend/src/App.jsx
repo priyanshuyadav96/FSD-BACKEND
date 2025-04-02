@@ -6,8 +6,8 @@ import Update from './components/Update'
 import './App.css'
 const App = () => {
   return (
-    <div>
-      <h1>User Registrstion System</h1>
+    <div className="app-container">
+      <h1>User Registration System</h1>
       <Register/>
       <Update/>
       <Delete/>

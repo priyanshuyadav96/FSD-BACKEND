@@ -9,6 +9,7 @@ const Delete = () => {
     }
   return (
     <div>
+        <h1>Delete User</h1>
         <form onSubmit={handleDelete}>
             <input type="text" placeholder="Enter Product ID" name="id"/>
             <button type="submit">Delete</button>
