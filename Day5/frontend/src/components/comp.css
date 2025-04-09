@@ -1,21 +1,18 @@
-/* Styles only apply inside Delete.jsx */
 
-
-/* Title */
 h1 {
     color: #d63031;
     font-size: 22px;
     margin-bottom: 15px;
 }
 
-/* Form Styling */
+
 form {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-/* Input Field */
+
 input {
     padding: 10px;
     border: 1px solid #ff4d4d;
@@ -23,7 +20,7 @@ input {
     font-size: 14px;
 }
 
-/* Delete Button */
+
 button {
     background-color: #ff4d4d;
     color: white;

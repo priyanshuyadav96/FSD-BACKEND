@@ -94,7 +94,7 @@ app.delete('/users/:id', async (req, res) => {
 
 (async () => {
     await readdata(); 
-    app.listen(9000, () => {
+    app.listen(9001, () => {
         console.log('Server is running on port 9000');
     });
 })();
